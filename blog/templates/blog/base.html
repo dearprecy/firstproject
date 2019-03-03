@@ -1,4 +1,5 @@
 {% load static %}
+
 <html>
 
 <head>
@@ -14,12 +15,14 @@
 </head>
 
 <body>
+
     <div class="page-header">
 <h1>
     <a href="/">Precious Precy Blog</a>
 </h1>
     </div>
     <div class="content container">
+        <img src="{% static "img/precy.jpg" %}" alt="An image of Precious">
         <div class="row">
             <div class="col-md-8">
                 {% block content %}
